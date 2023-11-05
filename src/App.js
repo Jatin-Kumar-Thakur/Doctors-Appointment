@@ -8,6 +8,7 @@ import Login from './components/logIn/Login';
 import Doctor_page from './components/profilePage/Doctor_page';
 import UserProfile from './components/profilePage/UserProfile';
 import SpecialitiesPage from './components/Specialities/SpecialitiesPage';
+import SignInDoc from './components/logIn/SignInDoc';
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ function App() {
         <Route path='/profile' element={<Doctor_page />}></Route>
         <Route path='/profile/user/:id' element={<UserProfile />}></Route>
         <Route path='/specialities' element={<SpecialitiesPage />}></Route>
+        <Route path='/docSignup' element={<SignInDoc />}></Route>
       </Routes>
       </BrowserRouter>
     </div>

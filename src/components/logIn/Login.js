@@ -5,7 +5,6 @@ import img1 from '../images/login_side.png';
 import LoginForm from './LoginForm';
 import SigninForm from './SigninForm';
 
-
 export default function Login(prop) {
 
   const [login, setlogin] = useState(true);

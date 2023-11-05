@@ -1,6 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Login.css'
-
 
 export default function LoginForm(prop) {
     return (
@@ -33,6 +33,10 @@ export default function LoginForm(prop) {
                                 <input type="password" placeholder='Password' required/>
                             </label>
                         </li>
+                        <li>
+                            <p className='doc-signup'><Link to="/docSignup" className='doc-signup-text'>Are You a Doctor?</Link></p>
+                        </li>
+
                     </ul>
                 </form>
                 <div className="submit-btn">

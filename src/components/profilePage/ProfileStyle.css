@@ -12,9 +12,6 @@
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr auto;
 }
-.child{
-    /* border: 1px solid blue; */
-}
 .main-profile{
     width: 100%;
     height: 100%;

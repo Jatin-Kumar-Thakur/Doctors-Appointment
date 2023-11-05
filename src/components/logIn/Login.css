@@ -105,6 +105,18 @@
     cursor: pointer;
 }
 
+.doc-signup{
+    color: #56BB6B;
+    text-align: right;
+}
+.doc-signup-text{
+    /* text-decoration: none; */
+    color: #56BB6B;
+}
+.doc-signup:hover{
+    cursor: pointer;
+}
+
 @media screen and (max-width:900px) {
     .container {
         margin: 0;
